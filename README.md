@@ -49,7 +49,7 @@ Pintos教学操作系统（来自斯坦福大学CS140课程）存在环境搭建
 ## 仓库文件简介
 ## 原型系统效果展示
 ## Pintos调试环境简介及搭建
-
+Pintos
 ![image](https://github.com/CreanX/proj143/assets/145346450/c62041e4-429f-4e2e-8ab0-8b71a3d5ae7f)
 
 ## 改造思路
