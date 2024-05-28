@@ -30,17 +30,25 @@ Pintos教学操作系统（来自斯坦福大学CS140课程）存在环境搭建
 |总计|完成度75％||
 ## 仓库文件简介
 ## 原型系统效果展示
-## Pintos调试环境简介及搭建问题
+## Pintos调试环境简介及搭建
 ### 调试环境简介
 Pintos是美国Stanford大学开发的一个基于80x86体系结构CPU的教学操作系统，它以比较简单的方式实现了内核线程、加载和运行用户程序等功能。Pintos操作系统可以直接运行在常规的采用80x86CPU的IBM兼容PC机上。不过为了实验和调试方便，我们通常在Linux系统上通过bochs仿真器运行pintos。
+
 开发环境结构如下图所示：
 
 ![image](https://github.com/CreanX/proj143/assets/145346450/c62041e4-429f-4e2e-8ab0-8b71a3d5ae7f)
 
-### 搭建问题
-pintos调试环境搭建需要以下步骤及条件：
+### 调试环境搭建
+为满足日常的操作习惯，我们使用Windows平台虚拟机软件VMWare Workstation，使pintos系统开发环境能运行于虚拟的Ubuntu系统之上。
+**搭建平台**：Windows11、VMWare Workstation 17 pro、Ubuntu20.04
 
+实验环境配置如下图所示：
 
+![屏幕截图 2024-05-28 180755](https://github.com/CreanX/proj143/assets/145346450/dc3121e5-b58b-4578-a8e5-a2e4a9c2ceec)
+
+pintos调试环境搭建需要以下步骤：
+1.
+但仍存在调试环境搭建难、命令行调试不方便等问题。
 ## 改造思路
 ### 调试环境搭建难
 ### 命令行调试操作不方便
