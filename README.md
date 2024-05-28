@@ -51,13 +51,14 @@ Pintos是美国Stanford大学开发的一个基于80x86体系结构CPU的教学�
 
 pintos调试环境搭建需要以下步骤：
 
-1.安装VMware17
-2.解压资源文件MachineDing.zip和DingShared.zip
-3.导入Ubuntu虚机镜像
-4.共享解压后的DingShared.zip到虚拟机
-5.在Ubuntu终端测试编译
+1. 安装VMware17
+2. 解压资源文件MachineDing.zip和DingShared.zip
+3. 导入Ubuntu虚机镜像
+4. 共享解压后的DingShared.zip到虚拟机
+5. 在Ubuntu终端测试编译
 ```
 cd /mnt/hgfs/DingShared/pintos_workdir/pintos/src/threads/
+
 make check
 ```
 
