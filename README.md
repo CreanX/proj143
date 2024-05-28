@@ -30,7 +30,7 @@ Pintos教学操作系统（来自斯坦福大学CS140课程）存在环境搭建
 |总计|完成度75％||
 ## 仓库文件简介
 ## 原型系统效果展示
-## Pintos调试环境简介及问题
+## Pintos调试环境简介及搭建运行
 ### 调试环境简介
 Pintos是美国Stanford大学开发的一个基于80x86体系结构CPU的教学操作系统，它以比较简单的方式实现了内核线程、加载和运行用户程序等功能。Pintos操作系统可以直接运行在常规的采用80x86CPU的IBM兼容PC机上。不过为了实验和调试方便，我们通常在Linux系统上通过bochs仿真器运行pintos。
 
@@ -61,8 +61,21 @@ cd /mnt/hgfs/DingShared/pintos_workdir/pintos/src/threads/
 
 make check
 ```
+6. 安装SourceInsight并导入代码
 
-但仍存在调试环境搭建难、命令行调试不方便等问题。
+### 调试环境启动
+以下是一个启动pintos调试环境的示例代码：
+```
+//打开终端命令提示符
+
+$ pintos -v --gdb -- -q -mlfqs run mlfqs-load-1 //开始pintos
+
+//打开第二个终端命令提示符
+
+$ pintos-gdb kernel.o //启动GDB
+
+```
+调试环境启动后可以开始使用命令行的方式对pintos的代码进行调试。
 ## 改造思路
 ### 调试环境搭建难
 ### 命令行调试操作不方便
